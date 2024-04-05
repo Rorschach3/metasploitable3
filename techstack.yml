@@ -1,0 +1,605 @@
+repo_name: Rorschach3/metasploitable3
+report_id: ccf5c52117a0c761ffc0f21765081d67
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-05T00:05:10+00:00'
+requested_by: jmartin-tech
+provider: github
+branch: master
+detected_tools_count: 37
+tools:
+- name: Crystal
+  description: Fast as C, slick as Ruby
+  website_url: http://crystal-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3381/_iXHOD-1.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/Rorschach3/metasploitable3
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/chef/cookbooks/metasploitable/files/drupal/drupal.sql
+  detection_source: chef/cookbooks/metasploitable/files/drupal/drupal.sql
+- name: Rails
+  description: Web development that doesn't hurt
+  website_url: http://rubyonrails.org/
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: Sinatra
+  description: Classy web-development dressed in a DSL
+  website_url: http://www.sinatrarb.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/999/logo.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/chef/cookbooks/metasploitable/files/sinatra/Gemfile
+  detection_source: chef/cookbooks/metasploitable/files/sinatra/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2017-04-05 20:54:14.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: SQLite
+  description: A software library that implements a self-contained, serverless, zero-configuration,
+    transactional SQL database engine
+  website_url: http://www.sqlite.org/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3
+  detection_source: Repo Metadata
+- name: Jenkins
+  description: An extendable open source continuous integration server
+  website_url: http://jenkins-ci.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/670/jenkins.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/jenkins/jenkins.war
+  detection_source: resources/jenkins/jenkins.war
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  detection_source: resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/Vagrantfile
+  detection_source: Vagrantfile
+  last_updated_by: Jeffrey Martin
+  last_updated_on: 2018-08-02 17:44:30.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/chef/cookbooks/metasploitable/files/flags/Dockerfile
+  detection_source: chef/cookbooks/metasploitable/files/flags/Dockerfile
+  last_updated_by: James Barnett
+  last_updated_on: 2017-07-14 20:43:48.000000000 Z
+- name: UglifyJS
+  description: A JavaScript parser, minifier, compressor and beautifier toolkit.
+  website_url: http://lisperator.net/uglifyjs/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: rack
+  description: Rack provides a minimal, modular and adaptable interface for developing
+    web applications in Ruby
+  package_url: https://rubygems.org/rack
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18839/default_db5cfb0d85d9fd8bfb40a863581417a2a57791ab.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/chef/cookbooks/metasploitable/files/sinatra/Gemfile
+  detection_source: chef/cookbooks/metasploitable/files/sinatra/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2017-04-05 20:54:14.000000000 Z
+  vulnerabilities:
+  - name: Possible shell escape sequence injection vulnerability in Rack
+    cve_id: CVE-2022-30123
+    cve_url: https://github.com/advisories/GHSA-wq4h-7r42-5hrr
+    detected_date: May 28
+    severity: critical
+    first_patched: 2.0.9.1
+  - name: Rack has possible DoS Vulnerability in Multipart MIME parsing
+    cve_id: CVE-2023-27530
+    cve_url: https://github.com/advisories/GHSA-3h57-hmj3-gj3p
+    detected_date: Mar 9
+    severity: high
+    first_patched: 2.0.9.3
+  - name: Rack allows Percent-encoded cookies to overwrite existing prefixed cookie
+      names
+    cve_id: CVE-2020-8184
+    cve_url: https://github.com/advisories/GHSA-j6w9-fv6q-3q52
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.1.4
+  - name: Denial of service via header parsing in Rack
+    cve_id: CVE-2022-44570
+    cve_url: https://github.com/advisories/GHSA-65f5-mfpf-vfhj
+    detected_date: Jan 19
+    severity: high
+    first_patched: 2.0.9.2
+  - name: Denial of Service Vulnerability in Rack Multipart Parsing
+    cve_id: CVE-2022-30122
+    cve_url: https://github.com/advisories/GHSA-hxqx-xwvh-44m2
+    detected_date: May 28
+    severity: high
+    first_patched: 2.0.9.1
+  - name: Directory traversal in Rack::Directory app bundled with Rack
+    cve_id: CVE-2020-8161
+    cve_url: https://github.com/advisories/GHSA-5f9h-9pjv-v6j7
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.1.3
+  - name: Possible Information Leak / Session Hijack Vulnerability in Rack
+    cve_id: CVE-2019-16782
+    cve_url: https://github.com/advisories/GHSA-hrqr-hxpp-chr3
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.0.8
+  - name: Rack vulnerable to Cross-site Scripting
+    cve_id: CVE-2018-16471
+    cve_url: https://github.com/advisories/GHSA-5r2p-j47h-mhpg
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.0.6
+  - name: Denial of Service Vulnerability in Rack Content-Disposition parsing
+    cve_id: CVE-2022-44571
+    cve_url: https://github.com/advisories/GHSA-93pm-5p5f-3ghx
+    detected_date: Jan 19
+    severity: low
+    first_patched: 2.0.9.2
+  - name: Denial of service via multipart parsing in Rack
+    cve_id: CVE-2022-44572
+    cve_url: https://github.com/advisories/GHSA-rqv2-275x-2jq5
+    detected_date: Jan 19
+    severity: low
+    first_patched: 2.0.9.2
+  - name: Possible Denial of Service Vulnerability in Rack's header parsing
+    cve_id: CVE-2023-27539
+    cve_url: https://github.com/advisories/GHSA-c6qg-cjj8-47qp
+    detected_date: Mar 16
+    severity: low
+    first_patched: 2.2.6.4
+  - name: Rack vulnerable to ReDoS in content type parsing (2nd degree polynomial)
+    cve_id: CVE-2024-25126
+    cve_url: https://github.com/advisories/GHSA-22f2-v57c-j9cx
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
+  - name: Rack Header Parsing leads to Possible Denial of Service Vulnerability
+    cve_id: CVE-2024-26146
+    cve_url: https://github.com/advisories/GHSA-54rr-7fvw-6x8f
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.0.9.4
+  - name: Rack has possible DoS Vulnerability with Range Header
+    cve_id: CVE-2024-26141
+    cve_url: https://github.com/advisories/GHSA-xj5v-6v4g-jfw6
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
+- name: uglifier
+  description: Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible
+    in Ruby
+  package_url: https://rubygems.org/uglifier
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+  vulnerabilities:
+  - name: Incorrect Handling of Non-Boolean Comparisons During Minification in uglify-js
+    cve_id: CVE-2015-8857
+    cve_url: https://github.com/advisories/GHSA-34r7-q49f-h37c
+    detected_date: Mar 28
+    severity: critical
+    first_patched: 2.7.2
+- name: rdoc
+  description: RDoc produces HTML and command-line documentation for Ruby projects
+  package_url: https://rubygems.org/rdoc
+  version: '4.0'
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18829/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  detection_source: resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary Code Execution in Rdoc
+    cve_id: CVE-2021-31799
+    cve_url: https://github.com/advisories/GHSA-ggxm-pgc9-g7fp
+    detected_date: Sep 2
+    severity: high
+    first_patched: 6.1.2.1
+- name: web-console
+  description: A debugging tool for your Ruby on Rails applications
+  package_url: https://rubygems.org/web-console
+  version: '2.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+  vulnerabilities:
+  - name: Web Console (Ruby gem) contains whitelisted_ips bypass
+    cve_id: CVE-2015-3224
+    cve_url: https://github.com/advisories/GHSA-67j6-xv27-w6ww
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.1.3
+  - name: Moderate severity vulnerability that affects web-console
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-82x2-g7vr-39wq
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.1.3
+- name: activesupport
+  description: A toolkit of support libraries and Ruby core extensions extracted from
+    the Rails framework
+  package_url: https://rubygems.org/activesupport
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18817/default_b17f14dbef6c1275120b34d9ec2eff5942499bd5.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/chef/cookbooks/metasploitable/files/sinatra/Gemfile
+  detection_source: chef/cookbooks/metasploitable/files/sinatra/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2017-03-31 22:15:04.000000000 Z
+- name: coffee-rails
+  description: CoffeeScript adapter for the Rails asset pipeline
+  package_url: https://rubygems.org/coffee-rails
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18896/default_9386886dd1c6c396a11bd4b49732afb9ec444f8d.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: erubis
+  description: 'Erubis is an implementation of eRuby and has the following features:
+    * Very fast, almost three times faster than ERB and about 10% faster than eruby'
+  package_url: https://rubygems.org/erubis
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18951/default_310421aa2a25d1a0887d82eef53bba1245fcdb4e.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/chef/cookbooks/metasploitable/files/sinatra/Gemfile
+  detection_source: chef/cookbooks/metasploitable/files/sinatra/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2017-03-31 22:15:04.000000000 Z
+- name: hoe
+  description: Hoe is a rake/rubygems helper for project Rakefiles
+  package_url: https://rubygems.org/hoe
+  version: '3.14'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18838/default_db5cfb0d85d9fd8bfb40a863581417a2a57791ab.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  detection_source: resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: hoe-bundler
+  description: Generate a Gemfile based on a Hoe spec's declared dependencies
+  package_url: https://rubygems.org/hoe-bundler
+  version: '1.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19422/default_7c4e3b5df7f4409d482e8f5c5877480803f7cb31.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  detection_source: resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: jbuilder
+  description: Create JSON structures via a Builder-style DSL
+  package_url: https://rubygems.org/jbuilder
+  version: '2.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: jquery-rails
+  description: This gem provides jQuery and the jQuery-ujs driver for your Rails 4+
+    application
+  package_url: https://rubygems.org/jquery-rails
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: mini_portile
+  description: Simplistic port-like solution for developers
+  package_url: https://rubygems.org/mini_portile
+  version: 0.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  detection_source: resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: minitest
+  description: Minitest provides a complete suite of testing facilities supporting
+    TDD, BDD, mocking, and benchmarking
+  package_url: https://rubygems.org/minitest
+  version: '5.8'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  detection_source: resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: rake-compiler
+  description: Provide a standard and simplified way to build and package Ruby extensions
+  package_url: https://rubygems.org/rake-compiler
+  version: 0.9.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18881/default_b1cb499f3e62fe773109c989f76e3365fbe49857.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  detection_source: resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: rake-compiler-dock
+  description: Easy to use and reliable cross compiler environment for building Windows
+    and Linux binary gems
+  package_url: https://rubygems.org/rake-compiler-dock
+  version: 0.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19602/default_ad0710c65b106932707389deb3b2e0b93a1ef7b6.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  detection_source: resources/rails_server/sqlite3-1.3.11-x64-mingw32.gemspec
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: sass-rails
+  description: Sass adapter for the Rails asset pipeline
+  package_url: https://rubygems.org/sass-rails
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: sdoc
+  description: Rdoc generator html with javascript search index
+  package_url: https://rubygems.org/sdoc
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19261/default_4ed5689ec4d74680b66320d503f54e39a95d4848.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: sqlite3
+  description: This module allows Ruby programs to interface with the SQLite3 database
+    engine
+  package_url: https://rubygems.org/sqlite3
+  version: 1.3.11
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18820/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: usmcfiredog
+  last_updated_on: 2019-02-06 01:54:47.000000000 Z
+- name: turbolinks
+  description: Rails engine for Turbolinks 5 support
+  package_url: https://rubygems.org/turbolinks
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19167/default_f74adb1c8d95c3268ea94f5ba9bbb60a0bc900ed.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
+- name: tzinfo-data
+  description: TZInfo::Data contains data from the IANA Time Zone database packaged
+    as Ruby modules for use with TZInfo
+  package_url: https://rubygems.org/tzinfo-data
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
+  detection_source_url: https://github.com/Rorschach3/metasploitable3/blob/master/resources/rails_server/Gemfile
+  detection_source: resources/rails_server/Gemfile
+  last_updated_by: wchen-r7
+  last_updated_on: 2016-10-08 06:12:11.000000000 Z
